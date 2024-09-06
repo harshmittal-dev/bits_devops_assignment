@@ -1,8 +1,10 @@
 class Student:
-	def __init__(self, name, m1, m2):
+	def __init__(self, name, rollnumber, m1, m2):
 		self.name = name
 		self.m1 = m1
 		self.m2 = m2
+		self.rollnumber = rollnumber
+
 	def sum(self):
 		return self.m1 + self.m2
 
